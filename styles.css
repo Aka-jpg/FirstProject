@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Recursive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Recursive&family=Source+Code+Pro:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    display: flex;
+}
+.sidebar nav{
+    padding:50px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size:20px;
+    padding :20px;
+}
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+   
+}
+.sidebar{
+   background-color: rgb(167, 166, 166); 
+   width: 350px;
+   font-family: 'Fira Sans',sans-serif;
+   height: 100vh;
+   transition: transform 0.3s ease-in;
+}
+.main{
+    /* background-color: red; */
+    width:90vw;
+}
+.infocontainer{
+    /* background-color:blueviolet; */
+    height: 54vh;
+    width: 70vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devpic img{
+    width: 361px;
+    height:54vh;
+   
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    font-size: 65px;
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Fira Sans',sans-serif;
+}
+.about{
+    font-size: 40px;
+}
+.moreabout{
+    font-size: 20px;
+    font-family: 'Fira Sans',sans-serif;
+
+}
+.buttons{
+    margin-top: 34px;
+}
+.btn{
+    padding: 11px;
+    border-radius: 38px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 23px;
+    margin:0 9px;
+    cursor: pointer;
+}
+.btn-sm{
+    font-size: 17px;   
+}
+.btn:hover{
+    background-color: white;
+    color: dodgerblue;
+
+}
+.contactform h1{
+    
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+}
+.contactform {
+    font-family: 'Fira Sans',sans-serif;
+    padding:0 34px;
+    padding-top: 144px;
+}
+.contactform form div{
+    padding:7px;
+
+}
+
+#emailHelp{
+    font-size: 8px;
+    color: midnightblue;
+    margin: 0 5px;
+}
+.contactform form div input{
+    width:16vw;
+    border-radius: 5px;
+    margin:2px;
+    padding: 3px;
+}
+.blogitem {
+    margin:20px;
+    
+}
+.hamburger{
+    position:absolute;
+    top:10px;
+    left:10px;
+    cursor: pointer;
+}
+.sidebargo{
+    transform: translate(-350px,0px);
+    position:absolute;
+
+}
+.cross{
+    margin-left: 262px;
+}
+
+.blogitem p{
+    
+    font-family: 'Source Code Pro', monospace;
+    
+}
+.blogcontainer h1{
+    padding-left: 10px;
+    margin:20px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.aboutme{
+    padding-left: 15px;
+}
+@media screen and (max-width: 985px){
+    *{
+        /* background-color: blue; */
+    }
+/* .sidebar{
+    transform: translate(-350px,0px);
+    position:absolute;
+
+} */
+}
